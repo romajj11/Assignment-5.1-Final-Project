@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craps Game</title>
+
+    <script src="/Users/jjromano/Desktop/CSC102/Assignment 2.1/code.js"></script>
+    
+    <!-- styling for the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #3d5771;
+            color: #ecf0f1;
+        }
+        .dice {
+            font-size: 3rem;
+            margin: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: #a63528;
+            color: #ecf0f1;
+            border: none;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Craps Game</h1>
+
+    <h2>  <!-- Navigation section -->
+        <nav>
+            <a href="/Users/jjromano/Desktop/Finalprojectt/landingpage.html">Home</a>
+            <a href="/Users/jjromano/Desktop/CSC102/Index.html">Index</a>
+            <a href="/Users/jjromano/Desktop/Assignment 4.1/Index4.html">Meme</a>
+            <a href="/Users/jjromano/Desktop/Assignment 3.1 & 3.2/strings.html">Strings</a>
+            <a href="/Users/jjromano/Desktop/CSC102/Boards.html">Boards</a>
+        </nav>
+    </h2>
+
+    <!-- display for rolled dice-->
+    <div class="dice" id="dice"></div>
+    <!-- button to roll dice -->
+    <button class="button" onclick="rollDice()">Roll Dice</button>
+    <!-- display for game result-->
+    <div class="result" id="result"></div>
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Table</title>
+    <!-- Adding some basic styles for the table -->
+    <style>
+        table {
+            width: 50%; /* Set table width to 50% of the container */
+            border-collapse: collapse; /* Merge table borders for a cleaner look */
+            margin: 50px auto; /* Center the table with margin */
+        }
+        table, th, td {
+            border: 1px solid black; /* Add border to table, headers, and cells */
+        }
+        th, td {
+            padding: 15px; /* Add padding inside table headers and cells */
+            text-align: center; /* Center the text inside headers and cells */
+        }
+        th {
+            background-color: #f2f2f2; /* Light gray background for headers */
+        }
+        h1, h2 {
+            text-align: center; /* Center-align headers */
+            margin-top: 20px; /* Add some top margin to headers */
+        }
+        nav {
+            margin-top: 20px; /* Add some top margin to the navigation */
+            text-align: center; /* Center-align navigation links */
+        }
+        nav a {
+            margin: 0 15px; /* Add some margin between navigation links */
+            text-decoration: none; /* Remove underline from links */
+            color: #000; /* Set link color to black */
+            font-weight: bold; /* Make link text bold */
+        }
+        footer {
+            text-align: center; /* Center-align footer text */
+            padding: 20px; /* Add padding to the footer */
+            background-color: #f2f2f2; /* Light gray background for footer */
+            position: fixed; /* Fix the footer at the bottom of the page */
+            width: 100%; /* Make the footer span the entire width */
+            bottom: 0; /* Position the footer at the bottom */
+        }
+    </style>
+</head>
+<body>
+    <!-- Main heading of the page -->
+    <h1>Skateboard Sizing Chart</h1>
+
+    <h2>  <!-- Navigation section -->
+        <nav>
+            <a href="/Users/jjromano/Desktop/Assignment 2.1/game.html">Game</a>
+            <a href="/Users/jjromano/Desktop/CSC102/Index.html">Index</a>
+            <a href="/Users/jjromano/Desktop/Assignment 4.1/Index4.html">Meme</a>
+            <a href="/Users/jjromano/Desktop/Assignment 3.1 & 3.2/strings.html">Strings</a>
+            <a href="/Users/jjromano/Desktop/CSC102/Boards.html">Boards</a>
+        </nav>
+    </h2>
+
+    <!-- Creating the table structure -->
+    <table>
+        <!-- Table header section -->
+        <thead>
+            <tr>
+                <th>Boards</th> <!-- Column 1 header -->
+                <th>Trucks</th> <!-- Column 2 header -->
+                <th>Wheels</th> <!-- Column 3 header -->
+            </tr>
+        </thead>
+        <!-- Table body section -->
+        <tbody>
+            <tr>
+                <td>7.75"</td> <!-- Row 1, Column 1 cell -->
+                <td>144mm</td> <!-- Row 1, Column 2 cell -->
+                <td>51mm</td> <!-- Row 1, Column 3 cell -->
+            </tr>
+            <tr>
+                <td>8.00"</td> <!-- Row 2, Column 1 cell -->
+                <td>148mm</td> <!-- Row 2, Column 2 cell -->
+                <td>52mm</td> <!-- Row 2, Column 3 cell -->
+            </tr>
+            <tr>
+                <td>8.25"</td> <!-- Row 3, Column 1 cell -->
+                <td>152mm</td> <!-- Row 3, Column 2 cell -->
+                <td>53mm</td> <!-- Row 3, Column 3 cell -->
+            </tr>
+            <tr>
+                <td>8.50"</td> <!-- Row 4, Column 1 cell -->
+                <td>156mm</td> <!-- Row 4, Column 2 cell -->
+                <td>54mm</td> <!-- Row 4, Column 3 cell -->
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer section -->
+    <footer>
+        J.J. Romano <br>
+        University of Advancing Technology<br>
+        2625 West Baseline Road<br>
+        Tempe Arizona, 85283<br>
+    </footer>
+</body>
+</html>

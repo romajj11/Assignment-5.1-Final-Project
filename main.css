@@ -1,0 +1,25 @@
+/* J.J. Romano */
+
+/* h1 styling */
+h1{
+    font-weight: bolder;
+    font-size: 32pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#161819;
+    text-align: center;
+}
+
+/* h2 styling */
+h2{
+    font-weight: bolder;
+    font-size: 18pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#161819;
+    text-align: center;
+}
+
+/* image styling */
+img{border-radius: 25px;}
+
+/* background color tag */
+body {background-color: #b0b1c3;}

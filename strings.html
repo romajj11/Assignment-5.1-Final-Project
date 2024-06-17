@@ -1,0 +1,89 @@
+<!-- J.J. Romano -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <style>
+        /* Styling for the body to center the content and set the font */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        /* Styling for the input text boxes */
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        /* Styling for the button */
+        input[type="button"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        /* Styling for the result text */
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        /* Styling for the warning text */
+        .warning {
+            color: red;
+            font-size: 16px;
+        }
+        /* Styling for the secret message text */
+        .secret {
+            color: blue;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main heading of the page -->
+    <h1>Palindrome Checker</h1>
+
+    <h2>  <!-- Navigation section -->
+        <nav>
+            <a href="/Users/jjromano/Desktop/Assignment 2.1/game.html">Game</a>
+            <a href="/Users/jjromano/Desktop/CSC102/Index.html">Index</a>
+            <a href="/Users/jjromano/Desktop/Assignment 4.1/Index4.html">Meme</a>
+            <a href="/Users/jjromano/Desktop/Finalprojectt/landingpage.html">Home</a>
+            <a href="/Users/jjromano/Desktop/CSC102/Boards.html">Boards</a>
+        </nav>
+    </h2>
+
+
+    <!-- Input field for entering the first name -->
+    <input type="text" id="firstName" placeholder="Enter your first name">
+    <!-- Input field for entering the last name -->
+    <input type="text" id="lastName" placeholder="Enter your last name">
+    <!-- Input field for entering the ZIP code -->
+    <input type="text" id="zipCode" placeholder="Enter your ZIP code">
+    <!-- Button to trigger the palindrome check function -->
+    <input type="button" value="Check" onclick="checkPalindrome()">
+    <!-- Div to display the result -->
+    <div class="result" id="result"></div>
+    <!-- Div to display warnings -->
+    <div class="warning" id="warning"></div>
+    <!-- Div to display the secret message -->
+    <div class="secret" id="secret" style="display: none;">Congratulations! Your ZIP code is valid.</div>
+
+    <!-- Audio section -->
+    <audio controls>
+        <source src="/Users/jjromano/Desktop/us-lab-background-1.mp3" type="audio/mpeg">
+        <source src="/Users/jjromano/Desktop/us-lab-background-1.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Link to external javascript file -->
+    <script src="strings.js"></script>
+</body>
+</html>
+
